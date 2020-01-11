@@ -1,6 +1,9 @@
 {
     "name": "chat-app",
     "version": "1.0.0",
+    "engines": {
+        "node": "12.12.0"
+    },
     "description": "Chat app (Socket.io)",
     "main": "index.js",
     "scripts": {

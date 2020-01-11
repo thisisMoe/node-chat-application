@@ -74,8 +74,6 @@ $messageForm.addEventListener('submit', (e) => {
         $messageFormButton.removeAttribute('disabled');
         $messageFormInput.value = '';
         $messageFormInput.focus();
-
-        console.log('message delivred');
     });
 });
 
@@ -90,7 +88,6 @@ $sendLocationButton.addEventListener('click', () => {
         let lat = position.coords.latitude;
         let long = position.coords.longitude;
         socket.emit('sendLocation', { lat, long }, () => {
-            console.log('Location Shared!');
             $sendLocationButton.removeAttribute('disabled');
         });
     });
