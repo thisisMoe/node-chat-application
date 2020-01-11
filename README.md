@@ -3,5 +3,5 @@
  real-time web applications with Node.
  
  # Herokuapp link:
- http://thisismoe-chat-app.herokuapp.com/
+ <a target="_blank" >http://thisismoe-chat-app.herokuapp.com/</a>
  
